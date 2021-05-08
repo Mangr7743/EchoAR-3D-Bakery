@@ -35,18 +35,20 @@ body {
 
 /* ABOUT ME */
 .about-me {
-  padding: 20px;
+  padding: 3rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .about-me-title {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
+  font-family: "Times New Roman";
+  font-weight: 400;
   color: rgb(33, 37, 41);
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .about-me-description {
-  font-family: "Verdana", Times, serif;
+  font-size: 20px;
 }
 
 .echo-logo {
@@ -56,7 +58,7 @@ body {
 
 /* MENU SECTION */
 .feature-items {
-  background-color: #ccc;
+  background-color: #212529;
   box-sizing: border-box;
   width: 100%;
   padding: 1rem;
@@ -68,11 +70,12 @@ body {
   background: #efefef;
   flex-direction: row;
   box-sizing: border-box;
-  width: 100%;
+  width: 75%;
   padding-left: 4rem;
   align-items: center;
   justify-content: center;
   display: flex;
+  margin: 1rem auto;
 }
 
 .img-wrapper {
@@ -82,8 +85,12 @@ body {
 }
 
 .image_comp {
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
+
+  display: inline-block;
+  border: 5px solid #151515;
+  font-size: 2.5rem;
 }
 
 .qr {
@@ -102,9 +109,12 @@ body {
 }
 
 .food_name {
-  display: inline;
-  border-bottom: 3px solid #292b2c;
   margin: 5px;
+}
+
+.food_description {
+  width: 50%;
+  margin: auto;
 }
 
 footer {

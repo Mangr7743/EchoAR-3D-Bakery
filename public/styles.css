@@ -46,7 +46,7 @@ body {
 }
 
 .about-me-description {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Verdana", Times, serif;
 }
 
 .echo-logo {
@@ -68,15 +68,43 @@ body {
   background: #efefef;
   flex-direction: row;
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
+  padding-left: 4rem;
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
-.img-wrapper header h1 {
-  font-family: "McLaren", cursive;
-  font-weight: 200;
+.img-wrapper {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 2rem;
+}
+
+.image_comp {
+  width: 50%;
+  height: 50%;
+}
+
+.qr {
+  margin: auto 6rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.text {
+  box-sizing: border-box;
+  width: 30%;
+  padding-top: 24px;
+  padding-left: 12px;
+  padding-bottom: 24px;
+  flex: 1 1 auto;
+}
+
+.food_name {
+  display: inline;
+  border-bottom: 3px solid #292b2c;
+  margin: 5px;
 }
 
 footer {

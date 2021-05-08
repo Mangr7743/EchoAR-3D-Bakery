@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 import FoodItems from "./Food-Item";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           image={foodItem.image}
         />
       ))}
+      <ContactMe />
     </div>
   );
 }

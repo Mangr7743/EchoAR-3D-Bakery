@@ -38,6 +38,8 @@ body {
   padding: 3rem;
   justify-content: center;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .about-me-title {
@@ -49,6 +51,34 @@ body {
 
 .about-me-description {
   font-size: 20px;
+}
+
+.menu-title {
+  font-family: "Great Vibes";
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(33, 37, 41);
+  text-align: center;
+}
+
+.contact {
+  padding: 3rem;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem auto;
+  width: 50%;
+  border: 5px solid black;
+}
+
+.contact-title {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  color: rgb(33, 37, 41);
+  font-size: 40px;
+}
+
+.contact-description {
+  font-size: 17px;
 }
 
 .echo-logo {
@@ -126,6 +156,17 @@ footer {
 }
 
 footer p {
+  color: #ccc;
+}
+
+.footer {
+  text-align: center;
+  background-color: #212529;
+  bottom: 0;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: 2.5rem;
   color: #ccc;
 }
 

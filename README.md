@@ -31,3 +31,7 @@ We learned how to use React and some introductory features of echoAR.
 ## What's next for 3D-Bakery-EchoAR
 
 Our next step is to potentially seek out local restaurants that may be interested in this concept. We would then create a much more fleshed out web app as well as explore other features of echoAR to enhance our web app.
+
+## Members
+Ravinder Mangat 
+Parth Patel

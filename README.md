@@ -1,4 +1,4 @@
-# EchoAR-3D-Bakery
+# EchoAR-3D-Bakery - HACKATHON PROJECT TOHACKS 2021
 
 Hosted on Netlify:
 

@@ -1,5 +1,9 @@
 # EchoAR-3D-Bakery
 
+Hosted on Netlify:
+
+https://csb-jr565.netlify.app
+
 ## Inspiration
 
 With the on going pandemic, ordering food has become more prevalant then ever. We had the idea to potentially collaborate with various online food delivery services such as UberEats or SkipTheDishes and use echoAR to allow users to view the food in augmented reality on their phones.

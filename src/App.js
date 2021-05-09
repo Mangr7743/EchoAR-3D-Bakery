@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 import FoodItems from "./Food-Item";
 import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <Header />
       <AboutMe />
+      <h2 className="menu-title"> Menu </h2>
       {FoodItems.map((foodItem) => (
         <Menu
           key={foodItem.key}
@@ -22,6 +24,7 @@ function App() {
         />
       ))}
       <ContactMe />
+      <Footer />
     </div>
   );
 }
